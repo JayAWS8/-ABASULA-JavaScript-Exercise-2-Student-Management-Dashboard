@@ -47,11 +47,8 @@ studentForm.addEventListener('submit', (event) => {
   }
 
   addStudentsAPI(studentData);
-
   localStudent = getStudentsAPI();
-
   renderTable(localStudent);
-
   studentForm.reset();
 });
 
